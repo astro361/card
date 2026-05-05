@@ -1,7 +1,7 @@
 {
   "version": 2,
   "cleanUrls": true,
-  "outputDirectory": "index.html",
+  "outputDirectory": ".",
   "trailingSlash": false,
   "rewrites": [
     {
