@@ -1,7 +1,9 @@
 {
-  "buildCommand": "npm run build",
-  "framework": null,
-  "public": true,
+  "version": 2,
+  "name": "therekk-card",
+  "cleanUrls": true,
+  "outputDirectory": ".",
+  "trailingSlash": false,
   "rewrites": [
     {
       "source": "/(.*)",
