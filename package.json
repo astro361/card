@@ -1,0 +1,13 @@
+{
+  "name": "therekk-card",
+  "version": "1.0.0",
+  "description": "Animated business card website for YASIR N - therekk",
+  "main": "backend.py",
+  "scripts": {
+    "dev": "python3 backend.py",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": ["business", "card", "animated", "portfolio"],
+  "author": "YASIR N",
+  "license": "MIT"
+}

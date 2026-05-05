@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YASIR N — therekk</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="background-blur">
+    <div class="blur-circle circle-1"></div>
+    <div class="blur-circle circle-2"></div>
+    <div class="blur-circle circle-3"></div>
+    <div class="blur-circle circle-4"></div>
+  </div>
+
+  <div class="floating-elements">
+    <div class="float-element element-1">🔧</div>
+    <div class="float-element element-2">🤖</div>
+    <div class="float-element element-3">💻</div>
+    <div class="float-element element-4">🌐</div>
+  </div>
+
+  <main class="main-container">
+    <section class="hero-panel">
+      <div class="panel-content">
+        <div class="profile-section">
+          <div class="profile-image-container">
+            <img src="photo.jpg" alt="YASIR N" class="profile-image" />
+            <div class="image-ring"></div>
+          </div>
+          <h1 class="name">YASIR N</h1>
+          <p class="tagline">Computer Problem-Solving Expert</p>
+          <p class="location">Cheruppulashery, Kerala</p>
+        </div>
+
+        <div class="action-buttons">
+          <a href="tel:+919539213484" class="action-btn call-btn">
+            <span class="btn-icon">📞</span>
+            <span class="btn-text">Call Now</span>
+          </a>
+          <a href="mailto:yasirnc678@gmail.com" class="action-btn email-btn">
+            <span class="btn-icon">📧</span>
+            <span class="btn-text">Email Me</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-panel">
+      <div class="panel-content">
+        <h2>Services</h2>
+        <div class="services-grid">
+          <div class="service-item" style="--delay: 0.1s;">
+            <div class="service-icon">🔧</div>
+            <h3>Hardware Repairs</h3>
+            <p>Expert diagnosis and repair of computer hardware issues</p>
+          </div>
+          <div class="service-item" style="--delay: 0.2s;">
+            <div class="service-icon">🤖</div>
+            <h3>AI Support</h3>
+            <p>Implementation and troubleshooting of AI systems</p>
+          </div>
+          <div class="service-item" style="--delay: 0.3s;">
+            <div class="service-icon">🌐</div>
+            <h3>Network Care</h3>
+            <p>Complete network setup and maintenance</p>
+          </div>
+          <div class="service-item" style="--delay: 0.4s;">
+            <div class="service-icon">🛡️</div>
+            <h3>Security</h3>
+            <p>Comprehensive cybersecurity services</p>
+          </div>
+          <div class="service-item" style="--delay: 0.5s;">
+            <div class="service-icon">💻</div>
+            <h3>Software</h3>
+            <p>Installation and configuration support</p>
+          </div>
+          <div class="service-item" style="--delay: 0.6s;">
+            <div class="service-icon">📱</div>
+            <h3>Mobile Tech</h3>
+            <p>Smartphone and tablet services</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-panel">
+      <div class="panel-content">
+        <h2>About therekk</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>I'm Yasir, founder of therekk in Cheruppulashery. I deliver dependable computer repairs, hardware fixes, and smart AI troubleshooting for people and businesses that need fast technical help.</p>
+            <div class="stats">
+              <div class="stat">
+                <span class="stat-number">500+</span>
+                <span class="stat-label">Repairs Completed</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Client Satisfaction</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-visual">
+            <div class="tech-icon">🚀</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-panel">
+      <div class="panel-content">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <span class="contact-icon">📞</span>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:+919539213484">+91 95392 13484</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📧</span>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:yasirnc678@gmail.com">yasirnc678@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <div>
+                <h4>Location</h4>
+                <p>Cheruppulashery, Kerala</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+              <div id="formStatus" style="margin-top: 1rem; text-align: center; display: none;"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="scroll-indicator">
+    <div class="scroll-dot active" data-section="0"></div>
+    <div class="scroll-dot" data-section="1"></div>
+    <div class="scroll-dot" data-section="2"></div>
+    <div class="scroll-dot" data-section="3"></div>
+  </div>
+
+  <script>
+    // 3D mouse movement effects
+    document.addEventListener('mousemove', (e) => {
+      const mouseX = e.clientX / window.innerWidth;
+      const mouseY = e.clientY / window.innerHeight;
+
+      document.querySelectorAll('.blur-circle').forEach((circle, index) => {
+        const speed = (index + 1) * 0.5;
+        const x = (mouseX - 0.5) * speed * 100;
+        const y = (mouseY - 0.5) * speed * 100;
+        circle.style.transform = `translate(${x}px, ${y}px)`;
+      });
+
+      document.querySelectorAll('.float-element').forEach((element, index) => {
+        const speed = (index + 1) * 0.3;
+        const x = (mouseX - 0.5) * speed * 50;
+        const y = (mouseY - 0.5) * speed * 50;
+        element.style.transform = `translate(${x}px, ${y}px) rotate(${x * 0.1}deg)`;
+      });
+    });
+
+    // Scroll animations
+    const panels = document.querySelectorAll('.hero-panel, .services-panel, .about-panel, .contact-panel');
+    const dots = document.querySelectorAll('.scroll-dot');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.3 });
+
+    panels.forEach(panel => observer.observe(panel));
+
+    // Scroll indicator
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.pageYOffset;
+      const windowHeight = window.innerHeight;
+      const docHeight = document.documentElement.scrollHeight;
+
+      const scrollPercent = scrollTop / (docHeight - windowHeight);
+      const activeSection = Math.floor(scrollPercent * panels.length);
+
+      dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === activeSection);
+      });
+    });
+
+    // Smooth scroll to sections
+    dots.forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+        panels[index].scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    // Service item hover effects
+    document.querySelectorAll('.service-item').forEach(item => {
+      item.addEventListener('mouseenter', (e) => {
+        const rect = item.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        item.style.setProperty('--mouse-x', `${x}px`);
+        item.style.setProperty('--mouse-y', `${y}px`);
+      });
+    });
+
+    // Contact form handler - using Formspree
+    const contactForm = document.getElementById('contactForm');
+    const formStatus = document.getElementById('formStatus');
+    const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mjglweag';
+
+    if (contactForm) {
+      contactForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+
+        formStatus.style.display = 'block';
+        formStatus.textContent = 'Sending...';
+        formStatus.style.color = 'rgba(255, 255, 255, 0.7)';
+
+        try {
+          const response = await fetch(FORMSPREE_ENDPOINT, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ 
+              name: name,
+              email: email,
+              message: message
+            })
+          });
+
+          if (response.ok) {
+            formStatus.textContent = '✓ Message sent successfully!';
+            formStatus.style.color = '#ff7b00';
+            contactForm.reset();
+            setTimeout(() => {
+              formStatus.style.display = 'none';
+            }, 3000);
+          } else {
+            formStatus.textContent = '✗ Failed to send message. Please try again.';
+            formStatus.style.color = '#ff4500';
+          }
+        } catch (error) {
+          formStatus.textContent = '✗ Error: ' + error.message;
+          formStatus.style.color = '#ff4500';
+        }
+      });
+    }
+  </script>
+</body>
+</html>
